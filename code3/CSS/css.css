@@ -1,0 +1,69 @@
+header, h1, h2, .digital {
+  background-color: #269;
+  background-image:
+    linear-gradient(rgba(255,255,255,.5) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255,255,255,.5) 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.28) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.28) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+@font-face {
+	font-family: 'blueprint';
+	src: url('Blueprint.ttf');
+}
+@font-face {
+	font-family: 'data';
+	src: url('data-latin.ttf');
+}
+@font-face {
+	font-family: 'digital';
+	src: url('digital-7 (italic).ttf');
+}
+*
+{
+	color: white;
+	background-color: #2e2d2c;
+	text-align: center;
+}
+h1 
+{
+	font-size: 65px;
+	font-family: 'blueprint';
+}
+h2
+{
+	font-size: x-large;
+}
+p
+{
+	font-size: large;
+	font-family: 'data';
+}
+caption
+{
+	font-size: large;
+	font-family: 'data';
+	text-decoration: underline;
+}
+.digital
+{
+	font-family: 'digital';
+	font-size: large;
+	text-align: right;
+}
+.lien
+{
+	text-decoration: none;
+}
+table
+{
+	border: 5px white solid;
+	margin: auto;
+}
+td
+{
+	border: 3px white solid;
+	text-align: center;
+	margin: auto;
+}

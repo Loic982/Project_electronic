@@ -1,0 +1,210 @@
+* {
+	margin: 0 auto;
+	font-family: 'Montserrat'
+}
+
+html {
+	background-color: #C8D0D4;
+	scroll-behavior: smooth;
+}
+
+/*haut de page*/
+header {
+	background: url("../img/fond5.jpg") no-repeat;
+	background-size: cover;
+}
+
+h1.title {
+	font-size: 50px;
+	color: #fff ;
+	text-shadow: 3px 3px 1px black;
+	text-align: center;
+	line-height: 2;
+	padding-top: 35px;
+	padding-bottom: 15px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+/*menu de navigation*/
+nav.menu-nav {
+	margin: 25px;
+	margin-bottom: 75px;
+	justify-content: space-between;
+	background-color: black;
+	display: flex;
+}
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.btn:hover a{
+	color: #16358B;
+	background-color: white;
+	transition: 0.1s all;
+}
+
+nav.menu-nav ul li.btn a {
+	text-decoration: none;
+	color: white;
+	background-color: #16358B;
+	font-size: 40px;
+	padding: 10px;
+	margin: 10px;
+	border: 4px black solid;
+}
+
+/*partie 1*/
+section.partie1 {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+div.leftbox {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+	div.uppbox {
+		text-align: center;
+		display: flex;
+		width: 420px;
+		height: 550px;
+		font-size: 25px;
+		font-weight: bold;
+		margin-bottom: 70px;
+		background-color: rgba(22,53,139,0.2);
+		border: 4px black solid;
+	}
+
+		div.uppL {
+			flex-basis: 60%;
+		}
+
+			li.modebtn {
+				list-style-type: none;
+			}
+
+			li.modebtn input {
+				align-items: center;
+				margin-right: 15px;
+				font-size: 40px;
+				width: 150px;
+				height: 69px;
+				background-color: rgba(22,53,139,1);
+				color: white;
+			}
+
+			li.modebtn:hover input {
+				background-color: rgba(106,214,224,1);
+				color: black;
+			}
+
+		div.uppR {
+			flex-basis: 40%;
+			display: flex;
+			flex-direction: column;
+			margin-right: 15px;
+		}
+
+
+div.rightbox {
+	flex-basis: 50%;
+	text-align: center;
+	border: 4px #16358B solid;
+	padding: 30px;
+	margin: 1px;
+	margin-right: 45px;
+}
+
+div.rightbox h1 {
+	margin-bottom: 45px;
+	font-size: 35px;
+	background-color: #16358B;
+	color: white;
+}
+
+table.t1 {
+	width: 100%;
+	height: 87%;
+}
+
+td, thead {
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+td {
+	background-color: rgba(22,53,139,0.2);
+}
+
+table.t1 thead {
+    background-color: rgba(22,53,139,0.8);
+    color: #fff;
+}
+
+table.t1 tbody tr td {
+	width: 50%;
+}
+
+/*partie 2*/
+section.partie2 {
+	display: flex;
+	height: 1000px;
+	margin: 15px;
+	margin-bottom: 100px;
+}
+
+table.t2 {
+	border: 4px #16358B solid;
+	width: 100%;
+	height: 100%;
+	border-spacing: 120px 15px;
+}
+
+table.t2 thead {
+	background-color: rgba(22,53,139,1);
+	color: #fff;
+}
+
+table.t2 thead tr th {
+	font-size: 45px;
+}
+
+table.t2 tbody tr td {
+	text-align: center;
+	width: 25%;
+	height: 25%;
+} 
+
+
+/*pied de page*/
+footer {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+div.logo {
+	align-items: center;
+	display: flex;
+}
+
+div.logo img.cti{
+	width: 150px;
+	padding: 25px;
+}
+div.logo img.helha{
+	width: 250px;
+	height: 125px;
+	padding: 25px;
+}
+div.logo img.inge{
+	width: 200px;
+	padding: 25px;
+}
+

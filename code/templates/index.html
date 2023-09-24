@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet 3BSI-GE 2021/2022</title>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="60"> 
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+	<!-- Haut de page -->
+	<header>
+		<h1 class="title">
+			Projet 3BSI-GE 2021/2022 : 
+			<br> 
+				Panneau de commande 
+			</br>
+		</h1>
+	</header>
+
+	<!-- Menu de navigation -->
+	<nav class="menu-nav">
+		<ul>
+			<li class="btn">
+				<a href="#partie1">
+					Partie1
+				</a>
+			</li>
+			<li class="btn">
+				<a href="#partie2">
+					Partie2
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- Partie 1  -->
+		<!-- Partie 1  -->
+	<section class="partie1" id="partie1">
+
+		<div class="leftbox">
+			<div class="uppbox">
+				<form method="POST" action="">
+					<div class="uppL">
+						<ul>
+							<h3>
+								Pilotage
+							</h3>
+							<li class="modebtn">
+								<input class="Auto_btn" type="submit" name="btn" value="Auto">
+							</li>
+							<li class="modebtn">
+								<input class="Manual_btn" type="submit" name="btn" value="Manual">
+							</li>
+						</ul>
+						<ul>
+							<h3>
+								Pompe
+							</h3>
+							<li class="modebtn">
+								<input class="pompeON_btn" type="submit" name="btn" value="ON">
+							</li>
+							<li class="modebtn">
+								<input class="pompeOFF_btn" type="submit" name="btn" value="OFF">
+							</li>
+						</ul>
+						<ul>
+							<h3>
+								Vérin
+							</h3>
+							<li class="modebtn">
+								<input class="vérinON_btn" type="submit" name="btn" value="ON">
+							</li>
+							<li class="modebtn">
+								<input class="vérinOFF_btn" type="submit" name="btn" value="OFF">
+							</li>
+						</ul>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="rightbox">
+			<h1>
+				Données des capteurs principaux :
+			</h1>
+
+			<table class="t1">
+			    <thead>
+			        <tr>
+			            <th>Capteur</th>
+			            <th>Valeur</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>Température interieure [°C]</td>
+			            <td class="etat1"></td>
+			        </tr>
+			        <tr>
+			            <td>Température extérieure [°C]</td>
+			            <td class="etat2"></td>
+			        </tr>
+			        <tr>
+			            <td>Humidité [%]</td>
+			            <td class="etat3"></td>
+			        </tr>
+			        <tr>
+			            <td>Hygrométrie [%]</td>
+			            <td class="etat4"></td>
+			        </tr>
+			        <tr>
+			            <td>Inclinaison [°]</td>
+			            <td class="etat5"></td>
+			        </tr>
+			    </tbody>
+			</table>
+		</div>
+	</section>
+
+<!-- Partie 2 -->
+	<section class="partie2" id="partie2">
+		<table class="t2">
+			<thead>
+				<tr>
+					<th>Vérin</th>
+					<th>Pompe</th>
+					<th>Batterie</th>
+					<th>Panneau solaire</th>
+				</tr>
+			</thead>
+			<tbody>
+					<td>Courant 1 [A] :<br><br>{{i1}}</td>
+					<td>Courant 2 [A] :<br><br>{{i2}}</td>
+					<td>Courant 3 [A] :<br><br>{{i3}}</td>
+					<td>Courant 4 [A] :<br><br>{{i4}}</td>
+				</tr>
+				<tr>
+					<td>Tension 1 [V] :<br><br>{{u1}}</td>
+					<td>Tension 2 [V] :<br><br>{{u2}}</td>
+					<td>Tension 3 [V] :<br><br>{{u3}}</td>
+					<td>Tension 4 [V] :<br><br>{{u3}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	
+	<!-- Pied de page -->
+	<footer>
+		<div class="logo">
+			<img class="cti" src="../static/img/logo.cti.png">
+			<img class="helha" src="../static/img/logo.helha2.png">
+			<img class="inge" src="../static/img/logo.inge.png">
+		</div>
+		
+		<h4>
+			Copyright Helha &copy; - Réalisé par la classe de 3BSI GE - 2021-2022 - se basant sur le modèle du groupe de travail "page web" de 3BSI GE - 2020-2021 All Right Reserved
+		</h4>
+	</footer>
+	<script src="../static/js/main.js" ></script>
+</body>
+</html>
